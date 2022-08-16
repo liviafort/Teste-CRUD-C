@@ -1,0 +1,20 @@
+﻿  Detran.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(3186,22): error C2676: '==' binário : 'Moto' não define este operador ou uma conversão para um tipo aceitável ao operador pré-definido
+C:\Users\himer\source\repos\ca.class.crud\ca.class.crud\Detran.cpp(38): message : consulte a referência à instanciação 'void std::replace<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::string>(const _FwdIt,const _FwdIt,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' do modelo que está sendo compilada
+          with
+          [
+              _Ty=Moto,
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Moto>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(3187,13): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'const _Ty' (ou não há conversão aceitável)
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\himer\source\repos\ca.class.crud\ca.class.crud\Moto.h(20,1): message : poderia ser 'Moto &Moto::operator =(Moto &&)'
+C:\Users\himer\source\repos\ca.class.crud\ca.class.crud\Moto.h(20,1): message : ou       'Moto &Moto::operator =(const Moto &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(3180,1): message : ao tentar corresponder a lista de argumentos '(Moto, const _Ty)'
+          with
+          [
+              _Ty=std::string
+          ]
